@@ -1,0 +1,106 @@
+.myBG {
+  height: 100vh;
+  background: url("../assets/images/bg/main.jpg");
+  background-size: cover;
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.trending {
+  height: auto;
+  background: url("../assets/images/bg/scifi.jpg");
+  background-size: cover;
+}
+.editLagi {
+  height: auto;
+  background: url("../assets/images/bg/car.jpg");
+  background-size: cover;
+}
+.editMovie {
+  height: auto;
+  background: url("../assets/images/bg/spiderman.jpg");
+  background-size: cover;
+}
+
+.AddMovie {
+  height: auto;
+  background: url("../assets/images/bg/romance.jpg");
+  background-size: cover;
+}
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
+.add-movie {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+/* landingPage.css */
+
+.AddMovie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.AddMovie h3 {
+  margin-bottom: 1rem;
+}
+
+.AddMovie form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.AddMovie form label {
+  margin-bottom: 0.5rem;
+}
+
+.AddMovie form input,
+.AddMovie form textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.AddMovie form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.AddMovie form button:hover {
+  background-color: #0069d9;
+}
+
+/* Update the warnings from autoprefixer */
+.AddMovie form input[type="file"],
+.AddMovie form button {
+  justify-self: flex-end;
+}

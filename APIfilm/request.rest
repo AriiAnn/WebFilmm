@@ -1,0 +1,27 @@
+GET http://localhost:5000/movies
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/movies
+Content-Type: application/json
+
+{
+    "title": "Ariansyah",
+    "description": "ari@gmail.com",
+    "image": "Laki Laki"
+}
+
+###
+PATCH http://localhost:5000/movies/1
+Content-Type: application/json
+
+{
+    "title": "Ariansyah",
+    "description": "ari@gmail.com",
+    "image": "Laki Laki"
+}
+
+###
+DELETE  http://localhost:5000/users/2
